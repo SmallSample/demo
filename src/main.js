@@ -7,10 +7,10 @@ import App from './App.vue'
 // const app = createApp(App)
 // app.use(ElementPlus)
 
-import { ElDatePicker } from "element-plus"
+import { ElSlider } from "element-plus"
 import "element-plus/theme-chalk/src/index.scss"
 
 const app = createApp(App)
-app.component(ElDatePicker.name, ElDatePicker)
+app.component(ElSlider.name, ElSlider)
 
 app.mount('#app')
